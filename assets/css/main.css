@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #F5F0F7;
+		background-color: #f2f7f0;
 /* 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
@@ -120,8 +120,9 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
-		color: rgba(255, 255, 255, 0.65);
+		background-color: #f2f7f0;
+		/* background-color: #935d8c; */
+		color: rgba(0, 0, 0, 0.65);
 	}
 
 	body, input, select, textarea {
@@ -303,19 +304,19 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #ffffff;
+		color: #000000;
 	}
 
 	a:hover {
-		color: #ffffff;
+		color: #000000;
 	}
 
 	strong, b {
-		color: #ffffff;
+		color: #000000;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #000000;
 	}
 
 	blockquote {
@@ -2349,7 +2350,7 @@ input, select, textarea {
 
 	.icon.alt {
 		border-color: rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		color: #000000;
 	}
 
 		.icon.alt:hover {
@@ -2488,7 +2489,7 @@ input, select, textarea {
 	}
 
 	dl dt {
-		color: #ffffff;
+		color: #000000;
 	}
 
 /* Actions */
@@ -2641,7 +2642,7 @@ input, select, textarea {
 	}
 
 		header.major h2 {
-			font-size: 2em;
+			font-size: 1.6em;
 		}
 
 			header.major h2:after {
@@ -3414,6 +3415,18 @@ input, select, textarea {
 				background-color: #8cc9f0;
 				color: #ffffff !important;
 				box-shadow: none;
+			}
+			#main .appstoreButton {
+				border: 1px solid red;
+				float: left;
+				width:30%;
+				box-sizing: border-box;
+			}
+			#main .playstorButton {
+				border: 1px solid red;
+				float: right;
+				width:30%;
+				box-sizing: border-box;
 			}
 
 				#main input[type="submit"].primary:hover,
