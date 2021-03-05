@@ -3416,18 +3416,6 @@ input, select, textarea {
 				color: #ffffff !important;
 				box-shadow: none;
 			}
-			#main .appstoreButton {
-				border: 1px solid red;
-				float: left;
-				width:30%;
-				box-sizing: border-box;
-			}
-			#main .playstorButton {
-				border: 1px solid red;
-				float: right;
-				width:30%;
-				box-sizing: border-box;
-			}
 
 				#main input[type="submit"].primary:hover,
 				#main input[type="reset"].primary:hover,
